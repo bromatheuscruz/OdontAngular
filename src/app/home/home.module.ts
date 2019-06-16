@@ -3,9 +3,10 @@ import { CommonModule } from '@angular/common';
 
 import { HomeRoutingModule } from './home-routing.module';
 import { HomeScreenComponent } from './home-screen/home-screen.component';
+import { SchedulingScreenComponent } from './scheduling-screen/scheduling-screen.component';
 
 @NgModule({
-  declarations: [HomeScreenComponent],
+  declarations: [HomeScreenComponent, SchedulingScreenComponent],
   imports: [
     CommonModule,
     HomeRoutingModule

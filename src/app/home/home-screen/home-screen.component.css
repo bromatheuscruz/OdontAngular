@@ -1,0 +1,144 @@
+.home-screen-row {
+  display: flex;
+  flex-direction: row;
+}
+.home-screen-sidebar-container {
+  background-color: #3c6373;
+  display: flex;
+  flex-direction: column;
+  padding: 0px 5px;
+  align-items: center;
+  height: 100vh;
+  width: 200px;
+}
+
+.home-screen-sidebar-logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px 0px;
+}
+
+.home-screen-sidebar-logo {
+  font-family: Ubuntu;
+  font-weight: bold;
+  font-size: 30px;
+  color: #17a68c;
+  margin: 0;
+}
+
+.home-screen-sidebar-employee-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-screen-sidebar-employee-container-image {
+  border-radius: 100px;
+  height: 40px;
+  width: 40px;
+}
+
+.home-screen-sidebar-employee-container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.employee-name {
+  font-size: 16px;
+}
+
+.employee-function {
+  font-size: 12px;
+}
+
+.padding-0 {
+  padding: 0;
+}
+
+.home-screen-sidebar {
+  display: flex;
+  background-color: #3c6373;
+}
+
+.divider .span-main-menu {
+  color: #cccccc;
+  font-size: 12px;
+  font-family: Ubuntu;
+  margin: 10px 0px;
+  border-top: 1px solid #cccccc;
+  padding: 20px;
+}
+
+.home-screen-sidebar-main-menu {
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  margin: 10px 0px;
+}
+
+.home-screen-main {
+  display: flex;
+  background-color: #f2f2f2;
+  height: 100vh;
+  flex-direction: column;
+}
+
+.home-screen-main-navbar {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #3c637377;
+  height: 60px;
+  width: 100%;
+  background-color: #f2f2f2;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+.home-screen-main-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-screen-main-navbar-search {
+  flex: 9;
+}
+
+.home-screen-main-navbar-controls-container {
+  display: flex;
+  justify-content: center;
+  padding: 0px 5px;
+  flex: 1;
+}
+
+.home-icon {
+  font-size: 20px;
+  color: #3c6373;
+  margin: 0px 5px;
+}
+
+.home-icon:hover {
+  color: #17a68c;
+  cursor: pointer;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-gray {
+  color: #cccccc;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.ubuntu {
+  font-family: Ubuntu;
+}
+
+.margin-0 {
+  margin: 0;
+}
