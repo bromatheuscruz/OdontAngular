@@ -23,7 +23,6 @@ export class LoginScreenComponent implements OnInit {
   hasError: boolean;
 
   login = (): void => {
-    console.log("login");
     this.authService.authenticate(this.loginData).subscribe(
       (response: LoginResponse) => {
         const { token, user } = response.data;
