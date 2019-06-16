@@ -1,0 +1,50 @@
+.login-screen-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  background-color: #ffffff;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-form-container {
+  background-color: #f2f2f2fd;
+  border: rgba(128, 128, 128, 0.589) solid 1px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 400px;
+  width: 350px;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+.login-form-logo {
+  font-family: "Ubuntu", sans-serif;
+  color: #17a68c;
+}
+
+.login-form-error {
+  font-family: "Ubuntu", sans-serif;
+  color: red;
+  font-size: 14px;
+}
+
+.login-form-forgot-password {
+  color: #17a68c;
+}
+
+.color,
+.color:hover,
+.color:active {
+  background-color: #17a68c !important;
+  border-color: #17a68c !important;
+}
+
+.text-color {
+  color: #17a68c;
+}
+
+.ubuntu {
+  font-family: "Ubuntu", sans-serif;
+}
