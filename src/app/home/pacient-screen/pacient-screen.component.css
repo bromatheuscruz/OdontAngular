@@ -1,0 +1,10 @@
+app-pacient-screen {
+    display: flex;
+    flex: 1;
+  }
+  
+  .pacient-screen-container {
+    background-color: #ffffff;
+    flex: 1;
+  }
+  

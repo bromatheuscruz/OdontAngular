@@ -37,6 +37,7 @@
   border-radius: 100px;
   height: 40px;
   width: 40px;
+  margin-right: 8px;
 }
 
 .home-screen-sidebar-employee-container-info {
@@ -88,7 +89,7 @@
 .home-screen-main-navbar {
   display: flex;
   flex-direction: row;
-  border-bottom: 1px solid #3c637377;
+  border-bottom: 1px solid #3c637328;
   height: 60px;
   width: 100%;
   background-color: #f2f2f2;
@@ -97,8 +98,10 @@
 }
 
 .home-screen-main-container {
+  background-color: #ffffff;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 
 .home-screen-main-navbar-search {
@@ -121,24 +124,4 @@
 .home-icon:hover {
   color: #17a68c;
   cursor: pointer;
-}
-
-.text-white {
-  color: #ffffff;
-}
-
-.text-gray {
-  color: #cccccc;
-}
-
-.text-white {
-  color: #ffffff;
-}
-
-.ubuntu {
-  font-family: Ubuntu;
-}
-
-.margin-0 {
-  margin: 0;
 }

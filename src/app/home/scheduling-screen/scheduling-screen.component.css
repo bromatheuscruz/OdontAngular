@@ -1,0 +1,9 @@
+app-scheduling-screen {
+  display: flex;
+  flex: 1;
+}
+
+.scheduling-screen-container {
+  background-color: #ffffff;
+  flex: 1;
+}

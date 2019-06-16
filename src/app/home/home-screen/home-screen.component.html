@@ -7,7 +7,7 @@
         </div>
         <div class="home-screen-sidebar-employee-container">
           <img
-            src="../../../assets/avatar.png"
+            src="../../../assets/logo.jpeg"
             alt="avatar"
             class="home-screen-sidebar-employee-container-image"
           />
@@ -23,12 +23,14 @@
         <div class="divider">
           <h6 class="span-main-menu">MENU PRINCIAL</h6>
         </div>
-        <div class="home-screen-sidebar-main-menu">
-          <button
+        <div
+          class="home-screen-sidebar-main-menu"
+        >
+          <button *ngFor="let i of sidenarNavigationItems"
             class="btn btn-link text-white ubuntu"
-            [routerLink]="['scheduling']"
+            (click)="navigateTo(i.route)"
           >
-            Agendamento
+            {{ i.name }}
           </button>
         </div>
       </div>

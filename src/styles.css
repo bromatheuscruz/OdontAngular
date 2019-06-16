@@ -5,3 +5,27 @@ body {
   height: 100%;
   font-family: "Ubuntu", sans-serif;
 }
+
+.text-white {
+  color: #ffffff;
+}
+
+.text-gray {
+  color: #cccccc;
+}
+
+.text-white {
+  color: #ffffff;
+}
+
+.ubuntu {
+  font-family: Ubuntu;
+}
+
+.margin-0 {
+  margin: 0;
+}
+
+.flex-direction-row {
+  flex-direction: row !important;
+}
