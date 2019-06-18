@@ -1,6 +1,106 @@
 <div class="pacient-screen-container">
-    <div class="container-fluid p-4">
-      <h2 class="ubuntu my-3">Cliente</h2>
+  <div class="container-fluid p-4">
+    <h2 class="ubuntu my-3">Paciente</h2>
+    <div class="container margin-0 padding-0">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="pacient_name" class="ubuntu">Nome do paciente</label>
+            <input id="pacient_name" class="form-control ubuntu">
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="mom_name" class="ubuntu">Mãe</label>
+            <input id="mom_name" type="text" class="form-control ubuntu">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="rg" class="ubuntu">RG</label>
+            <input id="rg" type="text" class="form-control ubuntu">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <label for="cpf" class="ubuntu">CPF</label>
+          <input id="cpf" type="text" class="form-control ubuntu">
+        </div>
+        <div class="col-md-4">
+          <label for="email" class="ubuntu">E-mail</label>
+          <input type="text" class="form-control ubuntu" id="email">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="form-group">
+            <label class="ubuntu" for="birthday">Data de nascimento</label>
+            <input type="text" class="form-control ubuntu" id="birthday">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label class="ubuntu" for="phone_1">Telefone 1</label>
+            <input type="text" class="form-control ubuntu" id="phone_1">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="phone_2" class="ubuntu">Telefone 2</label>
+            <input type="text" class="form-control ubuntu" id="phone_2">
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-2">
+          <div class="form-group">
+            <label for="cep" class="ubuntu">CEP</label>
+            <input id="cep" type="text" class="form-control ubuntu">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="public_place" class="ubuntu">Logradouro</label>
+            <input id="public_place" type="text" class="form-control ubuntu" disabled>
+          </div>
+        </div>
+        <div class="col-md-2">
+          <div class="form-group">
+            <label for="address_number" class="ubuntu">Número</label>
+            <input id="address_number" type="text" class="form-control ubuntu">
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label for="district" class="ubuntu">Bairro</label>
+            <input id="district" type="text" class="form-control ubuntu" disabled>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="form-group">
+            <label for="city" class="ubuntu">Cidade</label>
+            <input type="text" id="city" disabled class="form-control ubuntu">
+          </div>
+        </div>
+          <div class="col-md-6">
+            <div class="form-group">
+              <label for="complement" class="ubuntu">Complemento</label>
+              <input id="complement" type="text" class="form-control ubuntu">
+            </div>
+        </div> 
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="form-group">
+            <label for="observation" class="ubuntu">Observação</label>
+            <textarea class="form-control ubuntu" name="" id="" cols="30" rows="5"></textarea>
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-secondary btn-block ubuntu" style="font-weight: bolder;">CADASTRAR NOVO PACIENTE</button>
     </div>
   </div>
-  
+</div>

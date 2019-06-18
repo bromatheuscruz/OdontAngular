@@ -21,7 +21,11 @@
             "assets": ["src/favicon.ico", "src/assets"],
             "styles": [
               "src/styles.css",
+<<<<<<< HEAD
               "node_modules/bootstrap/dist/css/bootstrap.min.css"
+=======
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+>>>>>>> 5cf655e7fdb8a4e500874d0e8b113f56877b6a98
             ],
             "scripts": [],
             "es5BrowserSupport": true
