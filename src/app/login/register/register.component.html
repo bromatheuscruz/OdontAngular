@@ -1,0 +1,84 @@
+<form [formGroup]="registerFormGroup" (ngSubmit)="register()">
+  <div class="login-form-container register-container">
+    <h1 class="login-form-logo text-center">Odont</h1>
+    <div class="form-group margin-0">
+      <input
+        id="email"
+        type="text"
+        class="form-control text-center ubuntu"
+        [ngClass]="{
+          'is-invalid': email.invalid && email.touched
+        }"
+        placeholder="E-mail"
+        formControlName="email"
+      />
+      <div class="ubuntu invalid-input min">
+        <p *ngIf="email.invalid && email.touched" class="margin-0">
+          E-mail inválido
+        </p>
+      </div>
+    </div>
+    <div class="form-group margin-0">
+      <input
+        type="password"
+        id="password"
+        class="form-control text-center"
+        placeholder="Senha"
+        formControlName="password"
+        [ngClass]="{
+          'is-invalid': password.invalid && password.touched
+        }"
+      />
+      <div class="ubuntu invalid-input min">
+        <p *ngIf="password.invalid && password.touched" class="margin-0">
+          Senha inválida
+        </p>
+      </div>
+    </div>
+    <div class="form-group margin-0">
+      <input
+        id="repeat-password"
+        type="password"
+        class="form-control text-center ubuntu"
+        placeholder="Repita a senha"
+        formControlName="repeatPassword"
+        [ngClass]="{
+          'is-invalid':
+            repeatPassword.invalid &&
+            (repeatPassword.dirty || repeatPassword.touched)
+        }"
+      />
+      <div class="ubuntu invalid-input min">
+        <p
+          *ngIf="repeatPassword.invalid && repeatPassword.touched"
+          class="margin-0"
+        >
+          Senha de confirmação inválida
+        </p>
+      </div>
+    </div>
+    <div class="login-form-error-container">
+      <p
+        *ngIf="hasError && registerFormGroup.valid"
+        class="text-center login-form-error mt-1 error-color"
+      >
+        {{ error }}
+      </p>
+    </div>
+    <button
+      class="btn btn-primary color"
+      type="submit"
+      [disabled]="registerFormGroup.invalid"
+    >
+      Cadastrar
+    </button>
+    <div class="sign-container">
+      <button
+        class="btn-link btn login-form-forgot-password text-center margin-0 william"
+        [routerLink]="['/login']"
+      >
+        Voltar
+      </button>
+    </div>
+  </div>
+</form>
