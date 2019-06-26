@@ -1,54 +1,41 @@
-<div class="container-fluid padding-0">
-  <div class="home-screen-row">
-    <div style="flex: 1;">
-      <div class="home-screen-sidebar-container">
-        <div class="home-screen-sidebar-logo-container">
-          <h2 class="home-screen-sidebar-logo">Odont</h2>
-        </div>
-        <div class="home-screen-sidebar-employee-container">
-          <img
-            src="../../../assets/logo.jpeg"
-            alt="avatar"
-            class="home-screen-sidebar-employee-container-image"
-          />
-          <div class="home-screen-sidebar-employee-info">
-            <h3 class="text-white employee-name margin-0 ubuntu">
-              Matheus Cruz
-            </h3>
-            <h6 class="text-gray employee-function margin-0 ubuntu">
-              Fullstack Developer
-            </h6>
-          </div>
-        </div>
-        <div class="divider">
-          <h6 class="span-main-menu">MENU PRINCIAL</h6>
-        </div>
-        <div
-          class="home-screen-sidebar-main-menu"
-        >
-          <button *ngFor="let i of sidenarNavigationItems"
-            class="btn btn-link text-white ubuntu"
-            (click)="navigateTo(i.route)"
-          >
-            {{ i.name }}
-          </button>
-        </div>
+<div class="home-screen-container">
+  <div class="home-screen-sidebar-container">
+    <div class="home-screen-sidebar-logo-container">
+      <h2 class="home-screen-sidebar-logo">Odont</h2>
+    </div>
+    <div class="home-screen-sidebar-employee-container">
+      <img src="../../../assets/logo.jpeg" alt="avatar" class="home-screen-sidebar-employee-container-image" />
+      <div class="home-screen-sidebar-employee-info">
+        <h3 class="text-white employee-name margin-0 ubuntu">
+          Matheus Cruz
+        </h3>
+        <h6 class="text-gray employee-function margin-0 ubuntu">
+          Fullstack Developer
+        </h6>
       </div>
     </div>
-    <div style="flex: 9;">
-      <div class="home-screen-main">
-        <div class="home-screen-main-navbar">
-          <div class="home-screen-main-navbar-search"></div>
-          <div class="home-screen-main-navbar-controls-container">
-            <i class="fa fa-comments home-icon" aria-hidden="true"></i>
-            <i class="fa fa-bell-o home-icon" aria-hidden="true"></i>
-            <i class="fa fa-cog home-icon" aria-hidden="true"></i>
-          </div>
-        </div>
-        <div class="home-screen-main-container">
-          <router-outlet></router-outlet>
-        </div>
-      </div>
+    <div class="divider">
+      <h6 class="span-main-menu">MENU PRINCIAL</h6>
+    </div>
+    <div class="home-screen-sidebar-main-menu">
+      <button *ngFor="let i of sidenarNavigationItems" class="btn btn-link text-white ubuntu"
+        (click)="navigateTo(i.route)">
+        {{ i.name }}
+      </button>
     </div>
   </div>
+  <div class="home-screen-main">
+    <div class="home-screen-main-navbar">
+      <div class="home-screen-main-navbar-search"></div>
+      <div class="home-screen-main-navbar-controls-container">
+        <i class="fa fa-comments home-icon" aria-hidden="true"></i>
+        <i class="fa fa-bell-o home-icon" aria-hidden="true"></i>
+        <i class="fa fa-cog home-icon" aria-hidden="true"></i>
+      </div>
+    </div>
+    <div class="home-screen-main-container">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+
 </div>
