@@ -15,6 +15,12 @@ app-root {
   width: 100%;
 }
 
+app-login-screen {
+  display: flex;
+  flex: 1;
+  height: 100%;
+}
+
 app-home-screen {
   display: flex;
   flex: 1;
