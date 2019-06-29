@@ -100,6 +100,11 @@
     "@angular-devkit/core" "7.3.9"
     rxjs "6.3.3"
 
+"@angular/animation@^4.0.0-beta.8":
+  version "4.0.0-beta.8"
+  resolved "https://registry.yarnpkg.com/@angular/animation/-/animation-4.0.0-beta.8.tgz#9f61b4ee84ff4e8f48abb0eb49fff02bdedccc2e"
+  integrity sha1-n2G07oT/To9Iq7DrSf/wK97czC4=
+
 "@angular/animations@~7.2.0":
   version "7.2.15"
   resolved "https://registry.yarnpkg.com/@angular/animations/-/animations-7.2.15.tgz#980c1f523a79d4b7cb44508f57fba06f2e0872fa"
@@ -284,6 +289,11 @@
     esutils "^2.0.2"
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
+
+"@fortawesome/fontawesome-free@^5.9.0":
+  version "5.9.0"
+  resolved "https://registry.yarnpkg.com/@fortawesome/fontawesome-free/-/fontawesome-free-5.9.0.tgz#1aa5c59efb1b8c6eb6277d1e3e8c8f31998b8c8e"
+  integrity sha512-g795BBEzM/Hq2SYNPm/NQTIp3IWd4eXSH0ds87Na2jnrAUFX3wkyZAI4Gwj9DOaWMuz2/01i8oWI7P7T/XLkhg==
 
 "@ngtools/webpack@7.3.9":
   version "7.3.9"
@@ -4435,6 +4445,20 @@ neo-async@^2.5.0, neo-async@^2.6.0:
   version "2.6.1"
   resolved "https://registry.yarnpkg.com/neo-async/-/neo-async-2.6.1.tgz#ac27ada66167fa8849a6addd837f6b189ad2081c"
   integrity sha512-iyam8fBuCUpWeKPGpaNMetEocMt364qkCsfL9JuhjXX6dRnguRVOfk2GZaDpPjcOKiiXCPINZC1GczQ7iTq3Zw==
+
+ngx-mask@^8.0.0:
+  version "8.0.0"
+  resolved "https://registry.yarnpkg.com/ngx-mask/-/ngx-mask-8.0.0.tgz#b033bdd0f1496447a69a4702299f69d7f81d1691"
+  integrity sha512-ain3MZnMGFdQp5BIAn64AhOK3oJ/6GafUXucOT66XspgaPeYk/G6vPnY2sYeZzRo9mEUwUXNKzwSsAt+tFwQwA==
+  dependencies:
+    tslib "^1.9.0"
+
+ngx-toastr@^10.0.4:
+  version "10.0.4"
+  resolved "https://registry.yarnpkg.com/ngx-toastr/-/ngx-toastr-10.0.4.tgz#cbc61b8d67d748194ea7a28542b01e39bf1fc6c2"
+  integrity sha512-iN+zr2Msae5wV334c1dytRhSYNdUz467jwv1NE91lMmllsMkpUzZlu8VdFCeTFt+/R4TWzz19xBRqhpp+OAuVA==
+  dependencies:
+    tslib "^1.9.0"
 
 nice-try@^1.0.4:
   version "1.0.5"

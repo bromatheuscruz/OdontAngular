@@ -8,7 +8,16 @@ import { AccessComponent } from "./access/access.component";
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 @NgModule({
-  declarations: [LoginScreenComponent, RegisterComponent, AccessComponent],
-  imports: [CommonModule, LoginRoutingModule, FormsModule, ReactiveFormsModule]
+  declarations: [
+    LoginScreenComponent, 
+    RegisterComponent, 
+    AccessComponent
+  ],
+  imports: [
+    CommonModule, 
+    LoginRoutingModule, 
+    FormsModule, 
+    ReactiveFormsModule
+  ]
 })
 export class LoginModule {}
